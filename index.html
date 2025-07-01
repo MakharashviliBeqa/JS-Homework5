@@ -5,8 +5,30 @@
     <title>Title</title>
 </head>
 <body>
+<style>
+    body {
+        background: black;
+    }
+</style>
 
 <button onclick="this.remove()">Click Me To Remove Me </button>
+
+<script>
+    const img = document.createElement('img');
+
+    img.src = 'https://fastly.picsum.photos/id/180/2000/1600.jpg?hmac=dr3QTXUHbgPDvKgE9s2UjynoVFsZdxoLI3cxK8YZd9A';
+
+    document.body.appendChild(img);
+</script>
+
+<section id="characters-list"></section>
+
+<script src="data.js"></script>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
 
 </body>
 </html>
